@@ -1,0 +1,31 @@
+body{
+
+    font-family: sans-serif;
+    flex-direction: column;
+
+}
+h2{
+    text-align: center;
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+div img {
+    width: 400px;
+    height: 300px;
+    border: 2px solid lightsteelblue;
+    cursor: pointer;
+    box-shadow: 4px 6px 6px 7px lightslategrey;
+    margin: 10px;
+    transition: 400ms;
+
+}
+
+div img:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
